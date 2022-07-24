@@ -1,0 +1,16 @@
+xVel = 0;
+yVel = 0;
+xFrac = 0;
+yFrac = 0;
+MoveTick = 0;
+xVelInteger = 0;
+yVelInteger = 0;
+xMax = 6;
+yMax = 6;
+xMP = 0;
+yMP = 0;
+xMN = 0;
+yMN = 0;
+Bouncy = 0;
+Complex = 0; // 4 hitboxes or 1
+Break = 1; // Make solid blocks bounce off you instead of kill you

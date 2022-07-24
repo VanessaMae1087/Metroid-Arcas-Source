@@ -1,0 +1,7 @@
+draw_sprite_ext(argument0,argument1,argument2,argument3,argument4,argument5,argument6,argument7,argument8)
+draw_set_blend_mode(bm_add)
+draw_sprite_ext(argument0,argument1,argument2,argument3,argument4,argument5,argument6,make_color_rgb(255,100,100),.15*argument8)
+d3d_set_fog(1,make_color_rgb(255,100,100),0,0)
+draw_sprite_ext(argument0,argument1,argument2,argument3,argument4,argument5,argument6,argument7,.8*argument8)
+draw_set_blend_mode(bm_normal)
+d3d_set_fog(0,0,0,0) 
